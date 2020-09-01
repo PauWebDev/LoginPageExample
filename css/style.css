@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+html {
+    min-width: 360px;
+    max-width: 1920px;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1.3px;
+}
+
+.header {
+    background-color: rgba(255, 255, 255, .9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main {
+    /* center form on screen */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../image/background-2.webp);
+}
+
+.footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    color: #ffffff;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.header h1>a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.fa-user {
+    color: #000000;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.fa-user::after {
+    content: "Login";
+    font-size: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+form {
+    background-color: rgba(255, 255, 255, .9);
+    padding: 10px 40px;
+    border-radius: 8px;
+}
+
+.login {
+    padding: 0;
+    text-align: end;
+    list-style: none;
+}
+
+.login li>label,
+.login li>input,
+.login li>a {
+    margin: 3px 0;
+    display: block;
+    min-width: 300px;
+    padding: 5px;
+}
+
+.login li>label {
+    text-transform: uppercase;
+}
+
+.login li>label::after {
+    content: "*";
+}
+
+.loginbtn {
+    padding: 8px 22px;
+    margin-top: 15px;
+    background-color: #0000ff;
+    border-radius: 3px;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+}

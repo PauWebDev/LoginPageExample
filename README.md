@@ -1,5 +1,7 @@
 # LoginPageExample
-Login page example
 
+Página de inicio de sesión con verificación de usuario y contraseña.
+Hecha por Paulo para practicar HTML, CSS y JavaScript.
 
-Esto es para una prueba de commit
+Login page with username and password verification.
+Made by Paulo to practice HTML, CSS and JavaScript.

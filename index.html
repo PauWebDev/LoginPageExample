@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/55bf8bd181.js" crossorigin="anonymous"></script>
+
+    <!-- we load Normalize.css to remove the default styles from browsers -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!-- we load our main css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Login Page</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <h1><a href="">omega films</a></h1>
+            <a href=""><span class="fas fa-user"></span></a>
+        </div>
+
+    </header>
+    <main class="main">
+        <form action="logincorret.html" method="post" autocomplete="on" name="loginform" enctype="multipart/form-data" id="miFormulario">
+
+            <h2>sing in</h2>
+
+            <ul class="login">
+                <li>
+                    <label for="username">username</label>
+                    <input type="text" name="username" id="username" maxlength="30" required>
+                </li>
+                <li>
+                    <label for="userpassword">password</label>
+                    <input type="password" name="userpassword" id="userpassword" maxlength="12" minlength="4" required>
+                </li>
+                <button class="loginbtn" id="enviar" type="submit">login</button>
+            </ul>
+
+        </form>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <p> Copyright &copy 2020 Paulo Parra. All rights reserved</p>
+
+        </div>
+    </footer>
+
+    <!--  -->
+
+</body>
+
+</html>
